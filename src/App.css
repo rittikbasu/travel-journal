@@ -1,0 +1,68 @@
+body {
+  margin-top: 12vh;
+}
+
+.navbar {
+  background-color: #29539b;
+  background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+  opacity: 0.9; 
+}
+
+.navbar-brand {
+  font-family: 'Edu QLD Beginner', cursive;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+.card {
+  max-width: 540px;
+  margin: 3vw;
+}
+
+.card-img {
+  max-width: 94vw;
+  width: auto;
+  max-height: 40vh;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-imgCredits {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  background-color: rgb(0, 0, 0,0.5);
+  padding: 2px 7px;
+  border-radius: 4px;
+  color: white;
+}
+
+.country, .date {
+  letter-spacing: 0.1rem;
+}
+
+.footer-credits {
+  background-color: #29539b;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 3px;
+}
+
+.footer-socialMedia {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+@media screen and (min-device-width: 520px) 
+ {
+    .card {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .card-img {
+      max-width:100%;
+      width: 100%;
+      height: 100%;
+      max-height: fit-content;
+      object-fit: cover;
+    }
+}
